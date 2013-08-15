@@ -24,7 +24,7 @@ while(!feof($fp)){
 		'isAction' => (strpos(split("<",$rawData[20])[0], 'アクション') !== false)?1:0,
 		'isReaction' => (strpos(split("<",$rawData[20])[0], 'リアクション') !== false)?1:0,
 		'isVictoryPoint' => (strpos(split("<",$rawData[20])[0], '勝利点') !== false)?1:0,
-		'isTresure' => (strpos(split("<",$rawData[20])[0], '財宝') !== false)?1:0,
+		'isTreasure' => (strpos(split("<",$rawData[20])[0], '財宝') !== false)?1:0,
 	);
 
 	$dataString = implode("\t",$data);

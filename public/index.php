@@ -1,6 +1,7 @@
 <?php
 include_once("../protected/config/main.php");
 include_once("../protected/actions/main.php");
+include_once("../protected/models/CardList.php");
 $params = GetParser::parseIndexParams($_GET);
 
 ?>
@@ -17,6 +18,12 @@ foreach(Configure::CardSetName() as $key => $set)
 		continue;
 	$checked = ($params['usingSet'][$key]) ? "checked" : "";
 	print("<input type='checkbox' name='usingSet[]' value='$key' $checked>$set</input>");
+
+	$CardList = new CardList();
+	$result = $CardList->searchCards(array(
+			"isReaction"=>"==1"
+		));
+	var_dump($result);
 }
 ?>
 	</body>
