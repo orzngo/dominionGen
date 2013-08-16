@@ -19,12 +19,8 @@ foreach(Configure::CardSetName() as $key => $set)
 	$checked = ($params['usingSet'][$key]) ? "checked" : "";
 	print("<input type='checkbox' name='usingSet[]' value='$key' $checked>$set</input>");
 
-	$CardList = new CardList();
-	$result = $CardList->searchCards(array(
-			"isReaction"=>"==1"
-		));
-	var_dump($result);
 }
+
 ?>
 	</body>
 </html>

@@ -6,7 +6,7 @@ class GetParser{
 		//セット名のチェックボックス
 		$params['usingSet'] = array();
 		$usingSet = (isset($_GET['usingSet']))?$_GET['usingSet'] : $defaultParams['usingSet'];
-		foreach($cardSetName as $key => $value){
+		foreach(Configure::cardSetName() as $key => $value){
 			$params['usingSet'][$key] = false;
 		}
 		//チェックが付いている＝送信されて来たチェックボックスについては、trueにする
