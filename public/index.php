@@ -2,7 +2,7 @@
 include_once("../protected/config/main.php");
 include_once("../protected/actions/main.php");
 include_once("../protected/models/CardList.php");
-$params = GetParser::parseIndexParams($_GET);
+$params = GetParse::parseIndexParams($_GET);
 
 ?>
 
@@ -24,7 +24,7 @@ foreach(Configure::CardSetName() as $key => $set)
 echo "<div>利用するプロモカード</div>";
 $cardList = new CardList();
 
-$promoCards = $cardList->getCards(array("set"=>"3"));
+$promoCards = $cardList->getCards(array("set"=>"promo"));
 foreach($promoCards as $card)
 {
 	$checked = ($params['usingPromoCard'][$card['rawName']]) ? "checked" : "";

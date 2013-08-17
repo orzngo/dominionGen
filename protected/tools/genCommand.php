@@ -1,27 +1,13 @@
 <?php
-include_once("../config/main.php");
-include_once("../actions/main.php");
-include_once("../models/CardList.php");
+$rootPath = dirname(__FILE__);
+include_once($rootPath . "/../config/main.php");
+include_once($rootPath . "/../actions/main.php");
+include_once($rootPath . "/../models/CardList.php");
 
-$cardList = new CardList();
-$targetSets = array(
-	$cardList->getCards(array('set'=>'0')),
-	$cardList->getCards(array('set'=>'8')),
-	$cardList->getCards(array('set'=>'5')),
-	$cardList->getCards(array('set'=>'4')),
-);
+$selectedCards = RandomSelect::select(array('usingSet'=>array('dominion','seaside')));
 
-$targetCards = array();
-foreach($targetSets as $set){
-	foreach($set as $card){
-		$targetCards[] = $card;
-	}
+
+$setNames = Configure::cardSetName();
+foreach($selectedCards as $key => $card){
+	echo "[\${$card['cost']}]{$card['name']}/{$setNames[$card['set']]}\n";
 }
-
-$selectedIndexs = array_rand($targetCards, 10);
-foreach($selectedIndexs as $index){
-	$card = $targetCards[$index];
-	echo "{$card['name']}\n";
-}
-
-

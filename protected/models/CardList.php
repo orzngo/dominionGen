@@ -1,4 +1,5 @@
 <?php
+//カード一覧の検索等を請け負う
 
 class CardList{
 	private $_list=array();
@@ -18,14 +19,48 @@ class CardList{
 
 	/**
 	 * 指定したカード群から、条件にあったもののみを返します
+	 * 使えるコマンド
+	 * 数字系
+	 *			X	:Xに一致する物を検索します
+	 *			-X	:X以下の値の物を検索します
+	 *			X-	:X以上の値の物を検索します
+	 *			X-Y	:X以上Y以下の物を検索します
 	 */
-	public function filter($target, $condition=array()){
+	public function filter($target, $conditions=array()){
 		$result = array();
 		foreach($target as $card){
 			$hitFlag = true;
-			foreach($condition as $key => $value){
-				//TODO: evalか何か効かせて、一致以外の条件検索できるようにしたい
-				if($card[$key] !== $value){
+			foreach($conditions as $key => $condition){
+				$hitFlag2 = false;
+				$hit = false;
+				if(!is_array($condition))
+					$condition = array($condition);
+				foreach($condition as $conditionValue){
+					$value = explode("-",$conditionValue);
+					if(count($value)>1){//-が少なくとも一回指定されてる
+						//$value[0]が最小値、$value[1]が最大値と見なす
+						if(is_numeric($value[0]) && is_numeric($value[1])){//ともに数字
+							if(($value[0] <= $card[$key]  && $card[$key] <= $value[1]))
+								$hit = true;
+						}else if(is_numeric($value[0])){
+							if(($value[0] <= $card[$key]))
+								$hit = true;
+						}else{
+							if(($card[$key] <= $value[1]))
+								$hit = true;
+						}
+					}else{//-は少なくとも指定されていない
+						$value = $value[0];
+						//普通に一致するか検索
+						if(($card[$key] == $value))
+							$hit = true;
+					}
+					if($hit){
+						$hitFlag2 = true;
+						break;
+					}
+				}
+				if(!$hitFlag2){
 					$hitFlag = false;
 					break;
 				}
@@ -36,6 +71,7 @@ class CardList{
 		}
 		return $result;
 	}
+
 
 	private function _loadCardList(){
 		$fp = fopen(dirname(__FILE__) . "/../cardList.tsv", "r");

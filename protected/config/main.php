@@ -27,6 +27,23 @@ class Configure{
 			"darkages" => "暗黒時代",
 		);
 	}
+
+	//ランダム抽選の対象としないカード名一覧
+	//基本カード等ははじくので、アクションカードだがはじかない物等を記述
+	public static function randomExcludeCard(){
+		return array(
+			"Sir Vander",
+			"Sir Destry",
+			"Sir Bailey",
+			"Sir Martin",
+			"Sir Michael",
+			"Dame Anna",
+			"Dame Josephine",
+			"Dame Sylvia",
+			"Dame Natalie",
+			"Dame Molly",
+		);
+	}
 	
 	public static function defaultParameter(){
 		return include(dirname(__FILE__) ."/defaultParams.php");

@@ -1,2 +1,3 @@
 <?php
-require(dirname(__FILE__) . "/GetParser.php");
+require(dirname(__FILE__) . "/GetParse.php");
+require(dirname(__FILE__) . "/RandomSelect.php");

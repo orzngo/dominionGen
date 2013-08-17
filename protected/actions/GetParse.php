@@ -1,5 +1,5 @@
 <?php
-class GetParser{
+class GetParse{
 	static $defaultParams = array();
 	public static function parseIndexParams($getParams=array()){
 		$params=array();
@@ -11,7 +11,7 @@ class GetParser{
 
 		//セット名のチェックボックス
 		$params['usingSet'] = array();
-		$usingSet = (isset($getParams['usingSet']))?$getParams['usingSet'] : $defaultParams['usingSet'];
+		$usingSet = (isset($getParams['usingSet']))?$getParams['usingSet'] : self::$defaultParams['usingSet'];
 		foreach(Configure::cardSetName() as $key => $value){
 			$params['usingSet'][$key] = false;
 		}
@@ -22,8 +22,8 @@ class GetParser{
 
 		//プロモカード
 		$params['usingPromoCard'] = array();
-		$promoCards = $cardList->getCards(array("set"=>"3"));
-		$usingPromoCard = (isset($getParams['usingPromoCard']))?$getParams['usingPromoCard'] : $defaultParams['usingPromoCard'];
+		$promoCards = $cardList->getCards(array("set"=>"promo"));
+		$usingPromoCard = (isset($getParams['usingPromoCard']))?$getParams['usingPromoCard'] : self::$defaultParams['usingPromoCard'];
 		foreach($promoCards as $value){
 			$params['usingPromoCard'][$value['rawName']] = false;
 		}

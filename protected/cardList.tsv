@@ -1,228 +1,228 @@
-1	0	0	銅貨	Copper	0	0	0	0	1
-2	0	0	銀貨	Silver	3	0	0	0	1
-3	0	0	金貨	Gold	6	0	0	0	1
-4	0	0	屋敷	Estate	2	0	0	1	0
-5	0	0	公領	Duchy	5	0	0	1	0
-6	0	0	属州	Province	8	0	0	1	0
-7	0	1	呪い	Curse	0	0	0	0	0
-8	0	2	市場	Market	5	1	0	0	0
-9	0	2	改築	Remodel	4	1	0	0	0
-10	0	2	鍛冶屋	Smithy	4	1	0	0	0
-11	0	2	金貸し	Moneylender	4	1	0	0	0
-12	0	2	木こり	Woodcutter	3	1	0	0	0
-13	0	2	議事堂	Council Room	5	1	0	0	0
-14	0	2	玉座の間	Throne Room	4	1	0	0	0
-15	0	2	研究所	Laboratory	5	1	0	0	0
-16	0	2	鉱山	Mine	5	1	0	0	0
-17	0	2	工房	Workshop	3	1	0	0	0
-18	0	2	宰相	Chancellor	3	1	0	0	0
-19	0	2	祝宴	Feast	4	1	0	0	0
-20	0	2	祝祭	Festival	5	1	0	0	0
-21	0	2	書庫	Library	5	1	0	0	0
-22	0	2	地下貯蔵庫	Cellar	2	1	0	0	0
-23	0	2	庭園	Gardens	4	0	0	1	0
-24	0	2	泥棒	Thief	4	1	0	0	0
-25	0	2	冒険者	Adventurer	6	1	0	0	0
-26	0	2	堀	Moat	2	1	1	0	0
-27	0	2	魔女	Witch	5	1	0	0	0
-28	0	2	密偵	Spy	4	1	0	0	0
-29	0	2	民兵	Militia	4	1	0	0	0
-30	0	2	村	Village	3	1	0	0	0
-31	0	2	役人	Bureaucrat	4	1	0	0	0
-32	0	2	礼拝堂	Chapel	2	1	0	0	0
-33	1	2	大広間	Great Hall	3	1	0	1	0
-34	1	2	改良	Upgrade	5	1	0	0	0
-35	1	2	仮面舞踏会	Masquerade	3	1	0	0	0
-36	1	2	貴族	Nobles	6	1	0	1	0
-37	1	2	共謀者	Conspirator	4	1	0	0	0
-38	1	2	交易場	Trading Post	5	1	0	0	0
-39	1	2	鉱山の村	Mining Village	4	1	0	0	0
-40	1	2	公爵	Duke	5	0	0	1	0
-41	1	2	拷問人	Torturer	5	1	0	0	0
-42	1	2	詐欺師	Swindler	3	1	0	0	0
-43	1	2	執事	Steward	3	1	0	0	0
-44	1	2	男爵	Baron	4	1	0	0	0
-45	1	2	寵臣	Minion	5	1	0	0	0
-46	1	2	偵察員	Scout	4	1	0	0	0
-47	1	2	手先	Pawn	2	1	0	0	0
-48	1	2	鉄工所	Ironworks	4	1	0	0	0
-49	1	2	銅細工師	Coppersmith	4	1	0	0	0
-50	1	2	中庭	Courtyard	2	1	0	0	0
-51	1	2	願いの井戸	Wishing Well	3	1	0	0	0
-52	1	2	ハーレム	Harem	6	0	0	1	1
-53	1	2	破壊工作員	Saboteur	5	1	0	0	0
-54	1	2	橋	Bridge	4	1	0	0	0
-55	1	2	秘密の部屋	Secret Chamber	2	1	1	0	0
-56	1	2	貧民街	Shanty Town	3	1	0	0	0
-57	1	2	貢物	Tribute	5	1	0	0	0
-58	2	2	海の妖婆	Sea Hag	4	1	0	0	0
-59	2	2	海賊船	Pirate Ship	4	1	0	0	0
-60	2	2	漁村	Fishing Village	3	1	0	0	0
-61	2	2	巾着切り	Cutpurse	4	1	0	0	0
-62	2	2	原住民の村	Native Village	2	1	0	0	0
-63	2	2	航海士	Navigator	4	1	0	0	0
-64	2	2	策士	Tactician	5	1	0	0	0
-65	2	2	島	Island	4	1	0	1	0
-66	2	2	商船	Merchant Ship	5	1	0	0	0
-67	2	2	真珠採り	Pearl Diver	2	1	0	0	0
-68	2	2	前哨地	Outpost	5	1	0	0	0
-69	2	2	倉庫	Warehouse	3	1	0	0	0
-70	2	2	大使	Ambassador	3	1	0	0	0
-71	2	2	隊商	Caravan	4	1	0	0	0
-72	2	2	宝の地図	Treasure Map	4	1	0	0	0
-73	2	2	探検家	Explorer	5	1	0	0	0
-74	2	2	停泊所	Haven	2	1	0	0	0
-75	2	2	灯台	Lighthouse	2	1	0	0	0
-76	2	2	バザー	Bazaar	5	1	0	0	0
-77	2	2	引揚水夫	Salvager	4	1	0	0	0
-78	2	2	船着場	Wharf	5	1	0	0	0
-79	2	2	宝物庫	Treasury	5	1	0	0	0
-80	2	2	密輸人	Smugglers	3	1	0	0	0
-81	2	2	見張り	Lookout	3	1	0	0	0
-82	2	2	幽霊船	Ghost Ship	5	1	0	0	0
-83	2	2	抑留	Embargo	2	1	0	0	0
-84	3	2	闇市場	Black Market	3	1	0	0	0
-85	3	2	公使	Envoy	4	1	0	0	0
-86	3	2	へそくり	Stash	5	0	0	0	1
-87	4	2	薬師	Apothecary	2	1	0	0	0
-88	4	2	賢者の石	Philosopher's Stone	3	0	0	0	1
-89	4	2	ゴーレム	Golem	4	1	0	0	0
-90	4	2	支配	Possession	6	1	0	0	0
-91	4	2	大学	University	2	1	0	0	0
-92	4	2	使い魔	Familiar	3	1	0	0	0
-93	4	2	弟子	Apprentice	5	1	0	0	0
-94	4	2	念視の泉	Scrying Pool	2	1	0	0	0
-95	4	2	ブドウ園	Vineyard	0	0	0	1	0
-96	4	2	変成	Transmute	0	1	0	0	0
-97	4	0	ポーション	Potion	4	0	0	0	1
-98	4	2	薬草商	Herbalist	2	1	0	0	0
-99	4	2	錬金術師	Alchemist	3	1	0	0	0
-100	5	2	石切場	Quarry	4	0	0	0	1
-101	5	2	大市場	Grand Market	6	1	0	0	0
-102	5	2	会計所	Counting House	5	1	0	0	0
-103	5	2	隠し財産	Hoard	6	0	0	0	1
-104	5	2	拡張	Expand	7	1	0	0	0
-105	5	2	記念碑	Monument	4	1	0	0	0
-106	5	2	宮廷	King's Court	7	1	0	0	0
-107	5	2	行商人	Peddler	8	1	0	0	0
-108	5	2	玉璽	Royal Seal	5	0	0	0	1
-109	5	2	銀行	Bank	7	0	0	0	1
-110	5	2	禁制品	Contraband	5	0	0	0	1
-111	5	2	交易路	Trade Route	3	1	0	0	0
-112	5	2	護符	Talisman	4	0	0	0	1
-113	5	2	司教	Bishop	4	1	0	0	0
-114	5	2	借金	Loan	3	0	0	0	1
-115	5	0	植民地	Colony	11	0	0	1	0
-116	5	2	造幣所	Mint	5	1	0	0	0
-117	5	2	大衆	Rabble	5	1	0	0	0
-118	5	2	鍛造	Forge	7	1	0	0	0
-119	5	2	投機	Venture	5	0	0	0	1
-120	5	2	都市	City	5	1	0	0	0
-121	5	2	ならず者	Goons	6	1	0	0	0
-122	5	0	白金貨	Platinum	9	0	0	0	1
-123	5	2	望楼	Watchtower	3	1	1	0	0
-124	5	2	保管庫	Vault	5	1	0	0	0
-125	5	2	香具師	Mountebank	5	1	0	0	0
-126	5	2	労働者の村	Worker's Village	4	1	0	0	0
-127	6	2	移動動物園	Menagerie	3	1	0	0	0
-128	6	2	馬商人	Horse Traders	4	1	1	0	0
-129	6	2	占い師	Fortune Teller	3	1	0	0	0
-130	6		王冠	Diadem	0	0	0	0	1
-131	6		王女	Princess	0	1	0	0	0
-132	6		金貨袋	Bag of Gold	0	1	0	0	0
-133	6	2	再建	Remake	4	1	0	0	0
-134	6	2	収穫	Harvest	5	1	0	0	0
-135	6	2	狩猟団	Hunting Party	5	1	0	0	0
-136	6	2	村落	Hamlet	2	1	0	0	0
-137	6	2	道化師	Jester	5	1	0	0	0
-138	6	2	農村	Farming Village	4	1	0	0	0
-139	6	2	馬上槍試合	Tournament	4	1	0	0	0
-140	6	2	品評会	Fairgrounds	6	0	0	1	0
-141	6	2	豊穣の角笛	Horn of Plenty	5	0	0	0	1
-142	6	2	魔女娘	Young Witch	4	1	0	0	0
-143	6		名馬	Trusty Steed	0	1	0	0	0
-144	6		郎党	Followers	0	1	0	0	0
-145	7	2	オアシス	Oasis	3	1	0	0	0
-146	7	2	街道	Highway	5	1	0	0	0
-147	7	2	開発	Develop	3	1	0	0	0
-148	7	2	画策	Scheme	3	1	0	0	0
-149	7	2	官吏	Mandarin	5	1	0	0	0
-150	7	2	義賊	Noble Brigand	4	1	0	0	0
-151	7	2	厩舎	Stables	5	1	0	0	0
-152	7	2	岐路	Crossroads	2	1	0	0	0
-153	7	2	愚者の黄金	Fool's Gold	2	1	1	0	1
-154	7	2	交易人	Trader	4	1	1	0	0
-155	7	2	公爵夫人	Duchess	2	1	0	0	0
-156	7	2	香辛料商人	Spice Merchant	4	1	0	0	0
-157	7	2	坑道	Tunnel	3	1	1	1	0
-158	7	2	国境の村	Border Village	6	1	0	0	0
-159	7	2	シルクロード	Silk Road	4	0	0	1	0
-160	7	2	神託	Oracle	3	1	0	0	0
-161	7	2	大使館	Embassy	5	1	0	0	0
-162	7	2	地図職人	Cartographer	5	1	0	0	0
-163	7	2	値切り屋	Haggler	5	1	0	0	0
-164	7	2	農地	Farmland	6	0	0	1	0
-165	7	2	不正利得	Ill-Gotten Gains	5	0	0	0	1
-166	7	2	辺境伯	Margrave	5	1	0	0	0
-167	7	2	埋蔵金	Cache	5	0	0	0	1
-168	7	2	宿屋	Inn	5	1	0	0	0
-169	7	2	遊牧民の野営地	Nomad Camp	4	1	0	0	0
-170	7	2	よろずや	Jack of All Trades	4	1	0	0	0
-171	3	2	囲郭村	Walled Village	4	1	0	0	0
-172	3	2	総督	Governor	5	1	0	0	0
-173	8	2	青空市場	Market Square	3	1	1	0	0
-174	8	4	市場跡地	Ruined Market	0	1	0	0	0
-175	8	2	隠遁者	Hermit	3	1	0	0	0
-176	8	2	金物商	Ironmonger	4	1	0	0	0
-177	8	2	狩場	Hunting Grounds	6	1	0	0	0
-178	8	2	騎士※	Knights	5	1	0	0	0
-179	8	2	サー・ヴァンデル	Sir Vander	5	1	0	0	0
-180	8	2	サー・デストリー	Sir Destry	5	1	0	0	0
-181	8	2	サー・ベイリー	Sir Bailey	5	1	0	0	0
-182	8	2	サー・マーチン	Sir Martin	4	1	0	0	0
-183	8	2	サー・マイケル	Sir Michael	5	1	0	0	0
-184	8	2	デイム・アンナ	Dame Anna	5	1	0	0	0
-185	8	2	デイム・ジョセフィーヌ	Dame Josephine	5	1	0	1	0
-186	8	2	デイム・シルビア	Dame Sylvia	5	1	0	0	0
-187	8	2	デイム・ナタリー	Dame Natalie	5	1	0	0	0
-188	8	2	デイム・モリー	Dame Molly	5	1	0	0	0
-189	8	2	偽造通貨	Counterfeit	5	0	0	0	1
-190	8	2	救貧院	Poor House	1	1	0	0	0
-191	8	6	狂人	Madman	0	1	0	0	0
-192	8	2	狂信者	Cultist	5	1	0	0	0
-193	8	5	共同墓地	Necropolis	1	1	0	0	0
-194	8	2	吟遊詩人	Wandering Minstrel	4	1	0	0	0
-195	8	5	草茂る屋敷	Overgrown Estate	1	0	0	1	0
-196	8	2	屑屋	Junk Dealer	5	1	0	0	0
-197	8	2	賢者	Sage	3	1	0	0	0
-198	8	2	行進	Procession	4	1	0	0	0
-199	8	2	ゴミあさり	Scavenger	4	1	0	0	0
-200	8	2	採集者	Forager	3	1	0	0	0
-201	8	2	祭壇	Altar	6	1	0	0	0
-202	8	2	山賊の宿営地	Bandit Camp	5	1	0	0	0
-203	8	2	死の荷車	Death Cart	4	1	0	0	0
-204	8	2	襲撃者	Marauder	4	1	0	0	0
-205	8	2	従者	Squire	2	1	0	0	0
-206	8	2	城塞	Fortress	4	1	0	0	0
-207	8	4	生存者	Survivors	0	1	0	0	0
-208	8	2	建て直し	Rebuild	5	1	0	0	0
-209	8	2	地下墓所	Catacombs	5	1	0	0	0
-210	8	2	盗賊	Rogue	5	1	0	0	0
-211	8	4	図書館跡地	Ruined Library	0	1	0	0	0
-212	8	5	納屋	Hovel	1	1	1	0	0
-213	8	2	ネズミ	Rats	4	1	0	0	0
-214	8	4	廃坑	Abandoned Mine	0	1	0	0	0
-215	8	4	廃村	Ruined Village	0	1	0	0	0
-216	8	2	墓暴き	Graverobber	5	1	0	0	0
-217	8	2	伯爵	Count	5	1	0	0	0
-218	8	2	はみだし者	Band of Misfits	5	1	0	0	0
-219	8	2	秘術師	Mystic	5	1	0	0	0
-220	8	2	武器庫	Armory	4	1	0	0	0
-221	8	2	浮浪児	Urchin	3	1	0	0	0
-222	8	2	浮浪者	Vagrant	2	1	0	0	0
-223	8	2	封土	Feodum	4	0	0	1	0
-224	8	2	物置	Storeroom	3	1	0	0	0
-225	8	2	物乞い	Beggar	2	1	1	0	0
-226	8	6	傭兵	Mercenary	0	1	0	0	0
-227	8	2	略奪	Pillage	5	1	0	0	0
-228	8	6	略奪品	Spoils	0	0	0	0	1
+1	dominion	0	銅貨	Copper	0	0	0	0	1
+2	dominion	0	銀貨	Silver	3	0	0	0	1
+3	dominion	0	金貨	Gold	6	0	0	0	1
+4	dominion	0	屋敷	Estate	2	0	0	1	0
+5	dominion	0	公領	Duchy	5	0	0	1	0
+6	dominion	0	属州	Province	8	0	0	1	0
+7	dominion	1	呪い	Curse	0	0	0	0	0
+8	dominion	2	市場	Market	5	1	0	0	0
+9	dominion	2	改築	Remodel	4	1	0	0	0
+10	dominion	2	鍛冶屋	Smithy	4	1	0	0	0
+11	dominion	2	金貸し	Moneylender	4	1	0	0	0
+12	dominion	2	木こり	Woodcutter	3	1	0	0	0
+13	dominion	2	議事堂	Council Room	5	1	0	0	0
+14	dominion	2	玉座の間	Throne Room	4	1	0	0	0
+15	dominion	2	研究所	Laboratory	5	1	0	0	0
+16	dominion	2	鉱山	Mine	5	1	0	0	0
+17	dominion	2	工房	Workshop	3	1	0	0	0
+18	dominion	2	宰相	Chancellor	3	1	0	0	0
+19	dominion	2	祝宴	Feast	4	1	0	0	0
+20	dominion	2	祝祭	Festival	5	1	0	0	0
+21	dominion	2	書庫	Library	5	1	0	0	0
+22	dominion	2	地下貯蔵庫	Cellar	2	1	0	0	0
+23	dominion	2	庭園	Gardens	4	0	0	1	0
+24	dominion	2	泥棒	Thief	4	1	0	0	0
+25	dominion	2	冒険者	Adventurer	6	1	0	0	0
+26	dominion	2	堀	Moat	2	1	1	0	0
+27	dominion	2	魔女	Witch	5	1	0	0	0
+28	dominion	2	密偵	Spy	4	1	0	0	0
+29	dominion	2	民兵	Militia	4	1	0	0	0
+30	dominion	2	村	Village	3	1	0	0	0
+31	dominion	2	役人	Bureaucrat	4	1	0	0	0
+32	dominion	2	礼拝堂	Chapel	2	1	0	0	0
+33	intrigue	2	大広間	Great Hall	3	1	0	1	0
+34	intrigue	2	改良	Upgrade	5	1	0	0	0
+35	intrigue	2	仮面舞踏会	Masquerade	3	1	0	0	0
+36	intrigue	2	貴族	Nobles	6	1	0	1	0
+37	intrigue	2	共謀者	Conspirator	4	1	0	0	0
+38	intrigue	2	交易場	Trading Post	5	1	0	0	0
+39	intrigue	2	鉱山の村	Mining Village	4	1	0	0	0
+40	intrigue	2	公爵	Duke	5	0	0	1	0
+41	intrigue	2	拷問人	Torturer	5	1	0	0	0
+42	intrigue	2	詐欺師	Swindler	3	1	0	0	0
+43	intrigue	2	執事	Steward	3	1	0	0	0
+44	intrigue	2	男爵	Baron	4	1	0	0	0
+45	intrigue	2	寵臣	Minion	5	1	0	0	0
+46	intrigue	2	偵察員	Scout	4	1	0	0	0
+47	intrigue	2	手先	Pawn	2	1	0	0	0
+48	intrigue	2	鉄工所	Ironworks	4	1	0	0	0
+49	intrigue	2	銅細工師	Coppersmith	4	1	0	0	0
+50	intrigue	2	中庭	Courtyard	2	1	0	0	0
+51	intrigue	2	願いの井戸	Wishing Well	3	1	0	0	0
+52	intrigue	2	ハーレム	Harem	6	0	0	1	1
+53	intrigue	2	破壊工作員	Saboteur	5	1	0	0	0
+54	intrigue	2	橋	Bridge	4	1	0	0	0
+55	intrigue	2	秘密の部屋	Secret Chamber	2	1	1	0	0
+56	intrigue	2	貧民街	Shanty Town	3	1	0	0	0
+57	intrigue	2	貢物	Tribute	5	1	0	0	0
+58	seaside	2	海の妖婆	Sea Hag	4	1	0	0	0
+59	seaside	2	海賊船	Pirate Ship	4	1	0	0	0
+60	seaside	2	漁村	Fishing Village	3	1	0	0	0
+61	seaside	2	巾着切り	Cutpurse	4	1	0	0	0
+62	seaside	2	原住民の村	Native Village	2	1	0	0	0
+63	seaside	2	航海士	Navigator	4	1	0	0	0
+64	seaside	2	策士	Tactician	5	1	0	0	0
+65	seaside	2	島	Island	4	1	0	1	0
+66	seaside	2	商船	Merchant Ship	5	1	0	0	0
+67	seaside	2	真珠採り	Pearl Diver	2	1	0	0	0
+68	seaside	2	前哨地	Outpost	5	1	0	0	0
+69	seaside	2	倉庫	Warehouse	3	1	0	0	0
+70	seaside	2	大使	Ambassador	3	1	0	0	0
+71	seaside	2	隊商	Caravan	4	1	0	0	0
+72	seaside	2	宝の地図	Treasure Map	4	1	0	0	0
+73	seaside	2	探検家	Explorer	5	1	0	0	0
+74	seaside	2	停泊所	Haven	2	1	0	0	0
+75	seaside	2	灯台	Lighthouse	2	1	0	0	0
+76	seaside	2	バザー	Bazaar	5	1	0	0	0
+77	seaside	2	引揚水夫	Salvager	4	1	0	0	0
+78	seaside	2	船着場	Wharf	5	1	0	0	0
+79	seaside	2	宝物庫	Treasury	5	1	0	0	0
+80	seaside	2	密輸人	Smugglers	3	1	0	0	0
+81	seaside	2	見張り	Lookout	3	1	0	0	0
+82	seaside	2	幽霊船	Ghost Ship	5	1	0	0	0
+83	seaside	2	抑留	Embargo	2	1	0	0	0
+84	promo	2	闇市場	Black Market	3	1	0	0	0
+85	promo	2	公使	Envoy	4	1	0	0	0
+86	promo	2	へそくり	Stash	5	0	0	0	1
+87	alchemy	2	薬師	Apothecary	2	1	0	0	0
+88	alchemy	2	賢者の石	Philosopher's Stone	3	0	0	0	1
+89	alchemy	2	ゴーレム	Golem	4	1	0	0	0
+90	alchemy	2	支配	Possession	6	1	0	0	0
+91	alchemy	2	大学	University	2	1	0	0	0
+92	alchemy	2	使い魔	Familiar	3	1	0	0	0
+93	alchemy	2	弟子	Apprentice	5	1	0	0	0
+94	alchemy	2	念視の泉	Scrying Pool	2	1	0	0	0
+95	alchemy	2	ブドウ園	Vineyard	0	0	0	1	0
+96	alchemy	2	変成	Transmute	0	1	0	0	0
+97	alchemy	0	ポーション	Potion	4	0	0	0	1
+98	alchemy	2	薬草商	Herbalist	2	1	0	0	0
+99	alchemy	2	錬金術師	Alchemist	3	1	0	0	0
+100	prosperity	2	石切場	Quarry	4	0	0	0	1
+101	prosperity	2	大市場	Grand Market	6	1	0	0	0
+102	prosperity	2	会計所	Counting House	5	1	0	0	0
+103	prosperity	2	隠し財産	Hoard	6	0	0	0	1
+104	prosperity	2	拡張	Expand	7	1	0	0	0
+105	prosperity	2	記念碑	Monument	4	1	0	0	0
+106	prosperity	2	宮廷	King's Court	7	1	0	0	0
+107	prosperity	2	行商人	Peddler	8	1	0	0	0
+108	prosperity	2	玉璽	Royal Seal	5	0	0	0	1
+109	prosperity	2	銀行	Bank	7	0	0	0	1
+110	prosperity	2	禁制品	Contraband	5	0	0	0	1
+111	prosperity	2	交易路	Trade Route	3	1	0	0	0
+112	prosperity	2	護符	Talisman	4	0	0	0	1
+113	prosperity	2	司教	Bishop	4	1	0	0	0
+114	prosperity	2	借金	Loan	3	0	0	0	1
+115	prosperity	0	植民地	Colony	11	0	0	1	0
+116	prosperity	2	造幣所	Mint	5	1	0	0	0
+117	prosperity	2	大衆	Rabble	5	1	0	0	0
+118	prosperity	2	鍛造	Forge	7	1	0	0	0
+119	prosperity	2	投機	Venture	5	0	0	0	1
+120	prosperity	2	都市	City	5	1	0	0	0
+121	prosperity	2	ならず者	Goons	6	1	0	0	0
+122	prosperity	0	白金貨	Platinum	9	0	0	0	1
+123	prosperity	2	望楼	Watchtower	3	1	1	0	0
+124	prosperity	2	保管庫	Vault	5	1	0	0	0
+125	prosperity	2	香具師	Mountebank	5	1	0	0	0
+126	prosperity	2	労働者の村	Worker's Village	4	1	0	0	0
+127	cornucopia	2	移動動物園	Menagerie	3	1	0	0	0
+128	cornucopia	2	馬商人	Horse Traders	4	1	1	0	0
+129	cornucopia	2	占い師	Fortune Teller	3	1	0	0	0
+130	cornucopia		王冠	Diadem	0	0	0	0	1
+131	cornucopia		王女	Princess	0	1	0	0	0
+132	cornucopia		金貨袋	Bag of Gold	0	1	0	0	0
+133	cornucopia	2	再建	Remake	4	1	0	0	0
+134	cornucopia	2	収穫	Harvest	5	1	0	0	0
+135	cornucopia	2	狩猟団	Hunting Party	5	1	0	0	0
+136	cornucopia	2	村落	Hamlet	2	1	0	0	0
+137	cornucopia	2	道化師	Jester	5	1	0	0	0
+138	cornucopia	2	農村	Farming Village	4	1	0	0	0
+139	cornucopia	2	馬上槍試合	Tournament	4	1	0	0	0
+140	cornucopia	2	品評会	Fairgrounds	6	0	0	1	0
+141	cornucopia	2	豊穣の角笛	Horn of Plenty	5	0	0	0	1
+142	cornucopia	2	魔女娘	Young Witch	4	1	0	0	0
+143	cornucopia		名馬	Trusty Steed	0	1	0	0	0
+144	cornucopia		郎党	Followers	0	1	0	0	0
+145	hinterlands	2	オアシス	Oasis	3	1	0	0	0
+146	hinterlands	2	街道	Highway	5	1	0	0	0
+147	hinterlands	2	開発	Develop	3	1	0	0	0
+148	hinterlands	2	画策	Scheme	3	1	0	0	0
+149	hinterlands	2	官吏	Mandarin	5	1	0	0	0
+150	hinterlands	2	義賊	Noble Brigand	4	1	0	0	0
+151	hinterlands	2	厩舎	Stables	5	1	0	0	0
+152	hinterlands	2	岐路	Crossroads	2	1	0	0	0
+153	hinterlands	2	愚者の黄金	Fool's Gold	2	1	1	0	1
+154	hinterlands	2	交易人	Trader	4	1	1	0	0
+155	hinterlands	2	公爵夫人	Duchess	2	1	0	0	0
+156	hinterlands	2	香辛料商人	Spice Merchant	4	1	0	0	0
+157	hinterlands	2	坑道	Tunnel	3	1	1	1	0
+158	hinterlands	2	国境の村	Border Village	6	1	0	0	0
+159	hinterlands	2	シルクロード	Silk Road	4	0	0	1	0
+160	hinterlands	2	神託	Oracle	3	1	0	0	0
+161	hinterlands	2	大使館	Embassy	5	1	0	0	0
+162	hinterlands	2	地図職人	Cartographer	5	1	0	0	0
+163	hinterlands	2	値切り屋	Haggler	5	1	0	0	0
+164	hinterlands	2	農地	Farmland	6	0	0	1	0
+165	hinterlands	2	不正利得	Ill-Gotten Gains	5	0	0	0	1
+166	hinterlands	2	辺境伯	Margrave	5	1	0	0	0
+167	hinterlands	2	埋蔵金	Cache	5	0	0	0	1
+168	hinterlands	2	宿屋	Inn	5	1	0	0	0
+169	hinterlands	2	遊牧民の野営地	Nomad Camp	4	1	0	0	0
+170	hinterlands	2	よろずや	Jack of All Trades	4	1	0	0	0
+171	promo	2	囲郭村	Walled Village	4	1	0	0	0
+172	promo	2	総督	Governor	5	1	0	0	0
+173	darkages	2	青空市場	Market Square	3	1	1	0	0
+174	darkages	4	市場跡地	Ruined Market	0	1	0	0	0
+175	darkages	2	隠遁者	Hermit	3	1	0	0	0
+176	darkages	2	金物商	Ironmonger	4	1	0	0	0
+177	darkages	2	狩場	Hunting Grounds	6	1	0	0	0
+178	darkages	2	騎士※	Knights	5	1	0	0	0
+179	darkages	2	サー・ヴァンデル	Sir Vander	5	1	0	0	0
+180	darkages	2	サー・デストリー	Sir Destry	5	1	0	0	0
+181	darkages	2	サー・ベイリー	Sir Bailey	5	1	0	0	0
+182	darkages	2	サー・マーチン	Sir Martin	4	1	0	0	0
+183	darkages	2	サー・マイケル	Sir Michael	5	1	0	0	0
+184	darkages	2	デイム・アンナ	Dame Anna	5	1	0	0	0
+185	darkages	2	デイム・ジョセフィーヌ	Dame Josephine	5	1	0	1	0
+186	darkages	2	デイム・シルビア	Dame Sylvia	5	1	0	0	0
+187	darkages	2	デイム・ナタリー	Dame Natalie	5	1	0	0	0
+188	darkages	2	デイム・モリー	Dame Molly	5	1	0	0	0
+189	darkages	2	偽造通貨	Counterfeit	5	0	0	0	1
+190	darkages	2	救貧院	Poor House	1	1	0	0	0
+191	darkages	6	狂人	Madman	0	1	0	0	0
+192	darkages	2	狂信者	Cultist	5	1	0	0	0
+193	darkages	5	共同墓地	Necropolis	1	1	0	0	0
+194	darkages	2	吟遊詩人	Wandering Minstrel	4	1	0	0	0
+195	darkages	5	草茂る屋敷	Overgrown Estate	1	0	0	1	0
+196	darkages	2	屑屋	Junk Dealer	5	1	0	0	0
+197	darkages	2	賢者	Sage	3	1	0	0	0
+198	darkages	2	行進	Procession	4	1	0	0	0
+199	darkages	2	ゴミあさり	Scavenger	4	1	0	0	0
+200	darkages	2	採集者	Forager	3	1	0	0	0
+201	darkages	2	祭壇	Altar	6	1	0	0	0
+202	darkages	2	山賊の宿営地	Bandit Camp	5	1	0	0	0
+203	darkages	2	死の荷車	Death Cart	4	1	0	0	0
+204	darkages	2	襲撃者	Marauder	4	1	0	0	0
+205	darkages	2	従者	Squire	2	1	0	0	0
+206	darkages	2	城塞	Fortress	4	1	0	0	0
+207	darkages	4	生存者	Survivors	0	1	0	0	0
+208	darkages	2	建て直し	Rebuild	5	1	0	0	0
+209	darkages	2	地下墓所	Catacombs	5	1	0	0	0
+210	darkages	2	盗賊	Rogue	5	1	0	0	0
+211	darkages	4	図書館跡地	Ruined Library	0	1	0	0	0
+212	darkages	5	納屋	Hovel	1	1	1	0	0
+213	darkages	2	ネズミ	Rats	4	1	0	0	0
+214	darkages	4	廃坑	Abandoned Mine	0	1	0	0	0
+215	darkages	4	廃村	Ruined Village	0	1	0	0	0
+216	darkages	2	墓暴き	Graverobber	5	1	0	0	0
+217	darkages	2	伯爵	Count	5	1	0	0	0
+218	darkages	2	はみだし者	Band of Misfits	5	1	0	0	0
+219	darkages	2	秘術師	Mystic	5	1	0	0	0
+220	darkages	2	武器庫	Armory	4	1	0	0	0
+221	darkages	2	浮浪児	Urchin	3	1	0	0	0
+222	darkages	2	浮浪者	Vagrant	2	1	0	0	0
+223	darkages	2	封土	Feodum	4	0	0	1	0
+224	darkages	2	物置	Storeroom	3	1	0	0	0
+225	darkages	2	物乞い	Beggar	2	1	1	0	0
+226	darkages	6	傭兵	Mercenary	0	1	0	0	0
+227	darkages	2	略奪	Pillage	5	1	0	0	0
+228	darkages	6	略奪品	Spoils	0	0	0	0	1
