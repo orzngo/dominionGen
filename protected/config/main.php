@@ -19,12 +19,12 @@ class Configure{
 			"dominion" => "基本",
 			"intrigue" => "陰謀",
 			"seaside" => "海辺",
+			"promo" => "プロモ",
 			"alchemy" => "錬金術",
 			"prosperity" => "繁栄",
 			"cornucopia" => "収穫祭",
 			"hinterlands" => "異郷",
 			"darkages" => "暗黒時代",
-			"promo" => "プロモ",
 		);
 	}
 	

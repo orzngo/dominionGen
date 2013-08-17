@@ -10,4 +10,11 @@ return array(
 		'hinterlands',
 		'darkages',
 	),
+	'usingPromoCard' => array(
+		'Black Market',
+		'Envoy',
+		'Stash',
+		'Walled Village',
+		'Governor',
+	),
 );
