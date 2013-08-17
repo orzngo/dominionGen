@@ -17,4 +17,12 @@ return array(
 		'Walled Village',
 		'Governor',
 	),
+	'randomType' => array(
+		'random6'
+	),
+	'usePlatinum' => array(
+		'prosperity'
+	),
+	'mustCard' => array(),
+	'disabledCard' => array(),
 );

@@ -1,13 +1,13 @@
 <?php
 class GetParser{
+	static $defaultParams = array();
 	public static function parseIndexParams($getParams=array()){
 		$params=array();
 		if(empty($getParams)){
 			$getParams = $_GET;
 		}
-		$defaultParams = Configure::defaultParameter();
+		self::$defaultParams = Configure::defaultParameter();
 		$cardList = new CardList();
-
 
 		//セット名のチェックボックス
 		$params['usingSet'] = array();
