@@ -79,6 +79,7 @@ class CardList{
 		while(!feof($fp)){
 			$line = fgets($fp);
 			if(!$line) continue;
+			$line = str_replace(array("\r\n","\r","\n"), '', $line);
 			$rawData = explode("\t",$line);
 			$card = array(
 				'no' => $rawData[0],
@@ -91,6 +92,7 @@ class CardList{
 				'isReaction' => $rawData[7],
 				'isVictoryPoint' => $rawData[8],
 				'isTreasure' => $rawData[9],
+				'isRandomTarget' => $rawData[10],
 			);
 			$result[] = $card;
 		}

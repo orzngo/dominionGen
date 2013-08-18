@@ -31,6 +31,20 @@ class GetParse{
 		foreach($usingPromoCard as $key => $value){
 			$params['usingPromoCard'][$value] = true;
 		}
+
+		return $params;
+	}
+	public static function parseSearchParams($getParams=array()){
+		$params=array();
+		if(empty($getParams)){
+			$getParams = $_GET;
+		}
+		self::$defaultParams = Configure::defaultParameter();
+
+		$params['usingSet'] = (isset($getParams['usingSet']))?$getParams['usingSet'] : self::$defaultParams['usingSet'];
+		$params['usingPromoCard'] = (isset($getParams['usingPromoCard']))?$getParams['usingPromoCard'] : self::$defaultParams['usingPromoCard'];
+		$params['usePlatinum'] = (isset($getParams['usePlatinum']))?$getParams['usePlatinum'] : self::$defaultParams['usePlatinum'];
+		$params['isRandomTarget'] = (isset($getParams['isRandomTarget']))?$getParams['isRandomTarget'] : 1;
 		return $params;
 	}
 }

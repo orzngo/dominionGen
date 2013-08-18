@@ -26,6 +26,11 @@ while(!feof($fp)){
 	$data['isReaction'] = (strpos($value[0], 'リアクション') !== false)?1:0;
 	$data['isVictoryPoint'] = (strpos($value[0], '勝利点') !== false)?1:0;
 	$data['isTreasue'] = (strpos($value[0], '財宝') !== false)?1:0;
+	if($data['class'] != 2 || (strpos($value[0], '騎士')))
+		$data['isRandomTarget'] = 0;
+	else
+		$data['isRandomTarget'] = 1;
+
 
 	$dataString = implode("\t",$data);
 
