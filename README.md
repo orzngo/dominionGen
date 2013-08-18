@@ -12,3 +12,11 @@ phpで動くどみにおんらんだむじぇねれーた
 4. Web UI
 5. 見た目
 
+# とりあえずの使い方
+```
+php tools/genCommand.php
+```
+使用セットの指定方法
+```
+php tools/genCommand.php --useSet=dominion --useSet=seaside .......
+```
