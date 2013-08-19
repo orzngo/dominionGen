@@ -47,4 +47,29 @@ class GetParse{
 		$params['isRandomTarget'] = (isset($getParams['isRandomTarget']))?$getParams['isRandomTarget'] : 1;
 		return $params;
 	}
+
+	public static function parseViewerParams($getParams=array()){
+		$params = array();
+		if(empty($getParams)){
+			$getParams = $_GET;
+		}
+		$cardNumbers = (isset($getParams['card']))?$getParams['card'] : null;
+		$optionalNumbers = (isset($getParams['option']))?$getParams['option'] : null;
+		if(is_null($cardNumbers))
+			return null;
+
+		$cardList = new CardList();
+		$optionalCards = array();
+		$cards = $cardList->getCards(
+			array("no"=>$cardNumbers)
+		);
+		if(!is_null($optionalNumbers)){
+			$optionalCards = $cardList->getCards(
+				array("no"=>$optionalNumbers)
+			);
+		}
+		$result['supply'] = Sort::sortByCost($cards);
+		$result['optionalCards'] = Sort::sortByCost($optionalCards);
+		return $result;
+	}
 }

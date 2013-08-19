@@ -33,19 +33,8 @@ class RandomSelect{
 			$optionalCards[] = $card[1];
 		}
 
-		$result['supply'] = self::_sortByCost($supply);
-		$result['optionalCards'] = self::_sortByCost($optionalCards);
+		$result['supply'] = Sort::sortByCost($supply);
+		$result['optionalCards'] = Sort::sortByCost($optionalCards);
 		return $result;
-	}
-	private static function _sortByCost($targetList){
-		uasort($targetList, function($first, $second){
-			if($first['cost'] < $second['cost'])
-				return -1;
-			else if($first['cost'] == $second['cost'])
-				return 0;
-			else if($first['cost'] > $second['cost'])
-				return 1;
-		});
-		return $targetList;
 	}
 }

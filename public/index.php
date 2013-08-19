@@ -11,6 +11,7 @@ $params = GetParse::parseIndexParams($_GET);
 		<title>ドミニオンランダムセットジェネレータ</title>
 	</head>
 	<body>
+<form action='selecter.php' method='get'>
 <?php
 echo "<div>利用するカードセット</div>";
 foreach(Configure::CardSetName() as $key => $set)
@@ -31,6 +32,8 @@ foreach($promoCards as $card)
 	print("<input type='checkbox' name='usingPromoCard[]' value='{$card['rawName']}' $checked>{$card['name']}</input>");
 }
 ?>
+<?php
+/*
 <div>カードの抽選方法</div>
 <input type="radio" name="randomType" value="random6">コスト2~5を１枚ずつ+６枚ランダム</input>
 <input type="radio" name="randomType" value="random10">完全ランダム</input>
@@ -48,9 +51,11 @@ foreach($promoCards as $card)
 <div>このカードは絶対に利用しない</div>
 <p>この結果カードの数が１０個以下になった場合、サプライは作成されません</p>
 
-
+ */
+?>
 <div>設定終わり</div>
-<button>作成</button><br>
+<input type="submit" value = "作る"></input><br>
+</form>
 サプライ毎に固有のURLが作られるので、面白いURLが出来たら@orzlaboまで教えてください
 	</body>
 </html>
