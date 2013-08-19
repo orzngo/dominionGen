@@ -4,6 +4,7 @@ include_once("../protected/actions/main.php");
 include_once("../protected/models/CardList.php");
 
 $result = GetParse::parseViewerParams($_GET);
+
 $cardList = $result['supply'];
 $optionalList = $result['optionalCards'];
 $setNames = Configure::cardSetName();

@@ -10,14 +10,14 @@ $params = GetParse::parseSearchParams($_GET);
 $selectedCards = RandomSelect::select($params);
 
 $resultNumbers = array(
-	'supply' => array(),
-	'optionalCards' => array()
+	'card' => array(),
+	'option' => array()
 );
 foreach($selectedCards['supply'] as $card){
-	$resultNumbers['supply'][] = $card['no'];
+	$resultNumbers['card'][] = $card['no'];
 }
 foreach($selectedCards['optionalCards'] as $card){
-	$resultNumbers['optionalCards'][] = $card['no'];
+	$resultNumbers['option'][] = $card['no'];
 }
 $query = http_build_query($resultNumbers);
 header("Location: ./viewer.php". "?" . $query);
