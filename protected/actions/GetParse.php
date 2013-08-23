@@ -32,6 +32,12 @@ class GetParse{
 			$params['usingPromoCard'][$value] = true;
 		}
 
+		//抽選方法
+		$params['randomType'] = (isset($getParams['randomType']))?$getParams['randomType']: self::$defaultParams['randomType'];
+
+		//白金、植民地抽出アルゴリズム
+		$params['usePlatinum'] = (isset($getParams['usePlatinum']))?$getParams['usePlatinum']: self::$defaultParams['usePlatinum'];
+
 		return $params;
 	}
 	public static function parseSearchParams($getParams=array()){

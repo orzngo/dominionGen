@@ -25,4 +25,7 @@ return array(
 	),
 	'mustCard' => array(),
 	'disabledCard' => array(),
+	'randomType' => 'random6',
+	'usePlatinum' => 'prosperity',
+
 );
