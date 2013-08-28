@@ -2,14 +2,16 @@
 $rootPath = dirname(__FILE__);
 include_once($rootPath . "/../../config/main.php");
 
-
-$fp = fopen($rootPath . "/listSource.txt","r");
-if(!$fp){
+$source = mb_convert_encoding(file_get_contents("http://suka.s5.xrea.com/dom/list.cgi"), 'UTF-8', 'SJIS');
+if(!$source){
+	echo "http://suka.s5.xrea.com/dom/list.cgi access error!!\n";
 	exit;
 }
+
+$source = explode('</tr>', $source);
+
 $targetfp = fopen($rootPath . "/../../cardList.tsv","w");
-while(!feof($fp)){
-	$line = fgets($fp);
+foreach($source as $line){
 	if(strpos($line,'<tr class="tr2"') === false && strpos($line,'<tr class="tr3"') === false )
 		continue;
 
@@ -36,7 +38,6 @@ while(!feof($fp)){
 
 	fputs($targetfp, $dataString."\n");
 };
-fclose($fp);
 fclose($targetfp);
 
 

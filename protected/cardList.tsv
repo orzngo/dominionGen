@@ -226,3 +226,16 @@
 226	darkages	6	傭兵	Mercenary	0	1	0	0	0	0
 227	darkages	2	略奪	Pillage	5	1	0	0	0	1
 228	darkages	6	略奪品	Spoils	0	0	0	0	1	0
+229	guild	2	石工	Stonemason	2	1	0	0	0	1
+230	guild	2	医者	Doctor	3	1	0	0	0	1
+231	guild	2	収税吏	Taxman	4	1	0	0	0	1
+232	guild	2	熟練工	Journeyman	5	1	0	0	0	1
+233	guild	2	商人ギルド	Merchant Guild	5	1	0	0	0	1
+234	guild	2	助言者	Advisor	4	1	0	0	0	1
+235	guild	2	伝令官	Herald	4	1	0	0	0	1
+236	guild	2	肉屋	Butcher	5	1	0	0	0	1
+237	guild	2	パン屋	Baker	5	1	0	0	0	1
+238	guild	2	広場	Plaza	4	1	0	0	0	1
+239	guild	2	名品	Masterpiece	3	0	0	0	1	1
+240	guild	2	予言者	Soothsayer	5	1	0	0	0	1
+241	guild	2	蝋燭職人	Candlestick Maker	2	1	0	0	0	1

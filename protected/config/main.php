@@ -25,6 +25,7 @@ class Configure{
 			"cornucopia" => "収穫祭",
 			"hinterlands" => "異郷",
 			"darkages" => "暗黒時代",
+			"guild" => "ギルド",
 		);
 	}
 

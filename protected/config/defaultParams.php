@@ -9,6 +9,7 @@ return array(
 		'cornucopia',
 		'hinterlands',
 		'darkages',
+		'guild',
 	),
 	'usingPromoCard' => array(
 		'Black Market',
